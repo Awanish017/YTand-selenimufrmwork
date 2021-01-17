@@ -1,0 +1,7 @@
+   1st Line --Class 
+   2nd Line-- Variable
+   3rd Line-- Method
+   4th Line --Main method
+   5th Line-- Object creation
+   6th Line --Calling method
+   7th Line-- Constructor 
