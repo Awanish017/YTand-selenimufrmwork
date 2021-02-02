@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="org.testing.TestScripts.TC_3">
+      <class name="org.testing.TestScripts.TC_2">
         <methods>
           <include name="Brlaunch"/>
+          <include name="history"/>
           <include name="Browserclose"/>
-          <include name="login"/>
         </methods>
-      </class> <!-- org.testing.TestScripts.TC_3 -->
+      </class> <!-- org.testing.TestScripts.TC_2 -->
       <class name="org.testing.TestScripts.TC_4">
         <methods>
           <include name="Brlaunch"/>
@@ -24,20 +24,6 @@
           <include name="Browserclose"/>
         </methods>
       </class> <!-- org.testing.TestScripts.TC_6 -->
-      <class name="org.testing.TestScripts.TC_8">
-        <methods>
-          <include name="Brlaunch"/>
-          <include name="login"/>
-          <include name="Browserclose"/>
-        </methods>
-      </class> <!-- org.testing.TestScripts.TC_8 -->
-      <class name="org.testing.TestScripts.TC_1">
-        <methods>
-          <include name="Brlaunch"/>
-          <include name="trending"/>
-          <include name="Browserclose"/>
-        </methods>
-      </class> <!-- org.testing.TestScripts.TC_1 -->
       <class name="org.testing.TestScripts.TC_5">
         <methods>
           <include name="Brlaunch"/>
@@ -45,6 +31,20 @@
           <include name="Browserclose"/>
         </methods>
       </class> <!-- org.testing.TestScripts.TC_5 -->
+      <class name="org.testing.TestScripts.TC_8">
+        <methods>
+          <include name="Brlaunch"/>
+          <include name="login"/>
+          <include name="Browserclose"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC_8 -->
+      <class name="org.testing.TestScripts.TC_3">
+        <methods>
+          <include name="Brlaunch"/>
+          <include name="Browserclose"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC_3 -->
       <class name="org.testing.TestScripts.TC_7">
         <methods>
           <include name="Brlaunch"/>
@@ -52,13 +52,13 @@
           <include name="Browserclose"/>
         </methods>
       </class> <!-- org.testing.TestScripts.TC_7 -->
-      <class name="org.testing.TestScripts.TC_2">
+      <class name="org.testing.TestScripts.TC_1">
         <methods>
           <include name="Brlaunch"/>
-          <include name="history"/>
+          <include name="trending"/>
           <include name="Browserclose"/>
         </methods>
-      </class> <!-- org.testing.TestScripts.TC_2 -->
+      </class> <!-- org.testing.TestScripts.TC_1 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

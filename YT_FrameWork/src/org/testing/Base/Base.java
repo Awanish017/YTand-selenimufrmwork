@@ -23,7 +23,7 @@ public class Base {
 			pr= new Properties ();
 			pr.load(fi);
 			
-		System.setProperty("webdriver.chrome.driver", "../ASeleninum/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "../YT_FrameWork/chromedriver2.exe");
 		 driver=new ChromeDriver();
 		 driver.get("https://www.youtube.com/");
 		 driver.manage().window().maximize();
