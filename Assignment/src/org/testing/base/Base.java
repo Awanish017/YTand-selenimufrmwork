@@ -14,7 +14,7 @@ import org.testng.annotations.BeforeTest;
 
 public class Base {
 
-	 public ChromeDriver driver;
+	public ChromeDriver driver; 
 	 public Properties pr;
 	 
 	 @BeforeTest
@@ -26,7 +26,7 @@ public class Base {
 		 pr=new Properties();
 		 pr.load(fi);
 	 
-		  System.setProperty("webdriver.chrome.driver", "C:\\Users\\Awanish\\Downloads\\chromedriver_win32 (2)\\chromedriver.exe");
+		  System.setProperty("webdriver.chrome.driver", "../Assignment/chromedriver2.exe");
 		  ChromeOptions option=new ChromeOptions();
 		  option.addArguments("disable-notifications");
 		  driver=new ChromeDriver();

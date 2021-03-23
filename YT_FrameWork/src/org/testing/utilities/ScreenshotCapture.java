@@ -16,9 +16,7 @@ public class ScreenshotCapture {
 	{
 		File f=driver.getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(f,new File(path));
-			
-		
-		
+					
 	}
 
 }

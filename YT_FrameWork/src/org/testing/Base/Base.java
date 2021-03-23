@@ -28,7 +28,7 @@ public class Base {
 		 driver.get("https://www.youtube.com/");
 		 driver.manage().window().maximize();
 		}
-				@AfterMethod
+	    @AfterMethod
 	    public void Browserclose() 
 		{
 	    	   driver.close();

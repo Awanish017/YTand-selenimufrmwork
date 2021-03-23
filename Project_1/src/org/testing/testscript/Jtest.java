@@ -16,7 +16,7 @@ public class Jtest {
 	public void Urlhit()
 	{  
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Awanish\\Downloads\\chromedriver_win32 (2)\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "../Project_1/chromedriver2.exe");
 		// a=45;   
         driver=new ChromeDriver();    
 		driver.get("https://www.facebook.com/");

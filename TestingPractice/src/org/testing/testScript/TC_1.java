@@ -17,11 +17,11 @@ public class TC_1 {
 	@BeforeMethod
 	 public void Brlaunch() 
 	 {
-		System.setProperty("webdriver.chrome.driver", "../ASeleninum/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "../TestingPractice/chromedriver2.exe");
  
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.youtube.com");
-	    driver.manage().window().maximize();	   
+	    //driver.manage().window().maximize();	   
 	 }
 	@Test
 	    public void URLhit() {

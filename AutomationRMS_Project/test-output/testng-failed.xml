@@ -5,9 +5,8 @@
     <classes>
       <class name="Selenium.Java1">
         <methods>
-          <include name="page"/>
-          <include name="brlaunch"/>
-          <include name="brclose"/>
+          <include name="Brlauch"/>
+          <include name="TestCase"/>
         </methods>
       </class> <!-- Selenium.Java1 -->
     </classes>

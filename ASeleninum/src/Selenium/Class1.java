@@ -11,11 +11,11 @@ public class Class1 {
 
 	public static void main(String[] args) throws InterruptedException {
 		
-		System.setProperty("webdriver.chrome.driver", "../ASeleninum/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "../ASeleninum/chromedriver2.exe");
 	
 		ChromeDriver driver=new ChromeDriver();
 		 driver.get("https://www.facebook.com/");
-		 driver.manage().window().maximize();
+		 //driver.manage().window().maximize();
 		WebElement signup=   driver.findElement(By.id("u_0_2"));
 		signup.click();
 		Thread.sleep(3000);

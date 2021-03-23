@@ -12,7 +12,7 @@ public class TC1 {
 	  @BeforeMethod
 	  public void BrowserLaunch() throws InterruptedException 
 	  {
-		  System.setProperty("webDriver.chrome.driver","C:\\Users\\Awanish\\Downloads\\chromedriver_win32 (2)\\chromedriver.exe");
+		  System.setProperty("webDriver.chrome.driver","C:\\Users\\lenovo\\Desktop\\chromedriver.exe");
 		  //System.out.println(Brwoser+urlhit));
 		  WebDriver driver=new ChromeDriver();
 		  driver.get("https://www.youtube.com/");
@@ -21,7 +21,7 @@ public class TC1 {
 	  }
 	  @Test
 	   public void login()
-	   {    System.setProperty("webDriver.chrome.driver","C:\\Users\\Awanish\\Downloads\\chromedriver_win32 (2)\\chromedriver.exe");
+	   {    System.setProperty("webDriver.chrome.driver","C:\\Users\\lenovo\\Desktop\\chromedriver.exe");
 		  //System.out.println(Brwoser+urlhit));
 		  WebDriver driver=new ChromeDriver();
 		  driver.get("https://www.youtube.com/");
